@@ -1,0 +1,246 @@
+	/* General settings */
+* { font-family: Verdana, "Arial Cyr", Arial, sans-serif, courier, serif; }
+body, p, td, th
+{
+	margin-left: 5;
+	margin-right: 5;
+	margin-top: 5;
+	margin-bottom: 5;
+}
+BODY {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000066
+}
+table { border: 0; border-collapse: collapse; }
+table td { padding: 0; }
+table.pad td, .pad { padding: 0px; }
+table.pad2 td, .pad2 { padding: 0px; }
+table.bdr, table.bdr1 { border-color: #AAAAFF; border-style: solid; border-width: 0 1px 1px 0; margin-top: 15px; margin-bottom: 15px;}
+table.bdr td, table.bdr th, table.bdr1 td, table.bdr1 th
+{ border-color: #AAAAFF; border-style: solid; border-width: 1px 0 0 1px; padding: 5px; }
+table.bdr1 th { vertical-align: middle; }
+ul, ol { list-style-position: inside; }
+ol ul { list-style-type: disc; }
+td.dense { padding: 0; vertical-align: top; }
+td.c, td.bc { text-align: center; }
+td.bc { font-weight: bold; }
+TD.art {
+	FONT-SIZE: 16px; BACKGROUND-COLOR: white
+}
+
+	/* Main header*/
+.ecohead { font-size: 70px; font-weight: bold; font-style: italic; color: White; }
+.ecosite { font-size: 18px; font-weight: bold;	font-style: italic; color: White; text-align: right; }
+	/* Top menu and path bar */
+td.menu, td.menudark, td.menuleft
+   { font-size: 14px;	font-weight: 600; color: black; text-align: center; }
+td.menudark { background-color: #9999CC; }
+td.menuleft { text-align: left; }
+td.menu a, td.menudark a, td.menuleft a { color: #000066; }
+th { vertical-align: top; }
+	/* Ссылки в выпадающем подменю */
+a.acmenu { background-color: #bbf; border-color: #99C; border-style: solid; border-width: 1px; display: block; }	
+table.submenu { background-color: #CCF; border-color: #99c; border-style: solid; border-width: 1px; }	
+table.submenu td { padding: 1px; border-width: 0;  }	
+div.submenu { position: absolute; display: none; visibility: hidden; z-index: 5; }
+a.submenu, a.submenu:hover, a.submenu:visited  { display: block; padding: 2px 10px 2px 5px; margin: 0; font-size: 12px; 
+		text-decoration: none; color: #006; }
+a.submenu:hover  { background-color: #eef; color: blue; }
+
+   /*  Лента новостей */
+dl.news, dl.vip { margin-top: 0px; margin-bottom: 5px; }
+dl.news dt, dl.vip dt {	color: White; font-weight: 600; margin-left: 0px; margin-top: 5px; margin-bottom: 0%; font-size: 90%; }
+dl.news dd, dl.vip dd {	color: White; font-weight: 400; margin-left: 0px; margin-top: 5px; margin-bottom: 0px;	
+  padding-left: 10px; font-size: 90%;
+  }
+dl.vip dt, dl.vip dd { color: black; }
+dl.news dt.small, dl.news dd.small { font-size: 80%; }
+dl.news dt.smallb, dl.news dd.smallb { font-size: 80%; color:navy; }
+
+	/* Ссылки на разделы и подразделы */
+.secname, .secnameb, .secnameu, .subsecname { color: White; font-weight: 600; margin-top: 5px; margin-bottom: 0%; font-size: 90%; }
+.secnameb {	color: Black; }
+.secnameu {	color: #CCCCFF; }
+.subsecname { font-size: 100%; }
+.secdescr {	color: #CCCCFF; font-weight: 400; margin-top: 5px;	padding-left: 0px; font-size: 80%; }
+.small { color: #000066; font-weight: 400; font-size: 80%; }
+td.small a, td.small a:visited, td.small a:hover {	color: #000066; }
+td.small a:hover {	color: blue; }
+.sechead { color: white; font-weight: 600; font-size: 200%; padding: 20px; text-align: center;}
+.subsecw { color: white; font-weight: 600; font-size: 150%; margin: -10px 10px 20px 10px; text-align: center; }
+.secheadleft a, .secheadleft a:visited, .secheadleft a:hover
+         { color: white; font-weight: 600; margin-top:5px; text-decoration: none; }	
+.secitem { color: white; background-color: #000066; text-align: left; vertical-align: top; padding-top: 0px; }
+.txtarea, .txtarea0 { padding: 10px; vertical-align: top; background-color: #EAEAFF; }
+.txtarea0 { padding: 0; }
+
+	/* Ссылки специального вида */
+a.secref, a.secref:visited, a.secref:hover { color: #CCCCFF; font-weight: 400; text-decoration: none; }
+a.secref:hover { text-decoration: underline; }
+a.yref, a.yref:visited, a.yref:hover {	color: #FFFACD; font-weight: 400; font-size: 100%;	text-decoration: underline; }
+a.gref, a.gref:visited, a.gref:hover {	color: #DDDDFF; background-color: #666699; font-weight: 400; font-size: 100%;	
+  width: 70; padding: 2px; text-decoration: none; display: block; }
+a.gref:hover {	color: white; background-color: #9999CC; text-decoration: underline; }
+a.blue, a.blue:visited, a.blue:hover, 
+a.dic, a.dic:visited, a.dic:hover, 
+a.bluex, a.bluex:visited, a.bluex:hover {	color: navy; font-weight: 400; text-decoration: underline;}
+a.blue:hover, a.bluex:hover, a.dic:hover {	color: blue; }
+a.blue { font-size: 90%; }
+a.dic { font-size: 150%; padding: 2px; }
+a.dic:hover { background-color: #ccf; }
+
+		/* List of things */
+dl.text { margin-top: 0px;	margin-bottom: 5px; }
+dl.text dt { font-weight: bold; margin-left: 0px;	margin-top: 10px;	margin-bottom: 0%; }
+dl.text dd { font-weight: 400; margin-left: 0px; margin-top: 5px;	margin-bottom: 0px;	padding-left: 10px;
+	font-size: 90%; text-indent: 20px; }
+
+#cmdnews { width: 190; padding: 5px; background-color: #e3e4ff;
+   border-left: 1px solid #666; border-top: 1px solid #666;
+   border-right: 1px solid #fff;border-bottom: 1px solid #fff; }
+	
+		/* Gallery */
+a.gal, a.gal:visited, a.gal:hover {	color: #000033; font-weight: 600; font-size: 100%; text-decoration: underline; }
+.authors { color: white; font-size: 80%; padding: 10px; text-align: left; vertical-align: top; }
+.galsel { text-align: center;	width: 70; background-color: #CCCCFF; color: #000033; font-weight: 600; font-size: 100%; 
+   padding: 2px; display: block; }
+table.gallist { border-color: #666699; border-style: solid; border-width: 0 1px 1px 0; color: #000066; font-weight: 600; }
+table.gallist td, table.gallist th { text-align: center; border-color: #666699; border-style: solid; border-width: 1px 0 0 1px; padding: 10px; }
+table.gallist th { background-color: #AAAAEE; font-size: 110%; }
+table.galpages { margin-bottom: 20px; }
+table.galpages td { text-align: center; padding: 1px; }
+table.preview  td { padding: 2px 5px; }
+table.preview  td div { padding: 5px; border: #006 2px solid; }
+table.preview td.no { padding-bottom: 20px; text-align: center; color: white; font-size: 90%; width: 160px; vertical-align: top; }
+td.imcap {	color: white; font-size: 80%; text-align: center; }
+td.imauth {	color: #ccc; font-size: 80%; text-align: right; }
+.profname { color: white; font-size: 120%; margin: 10px 5px 5px 0px; }
+.profname a { color: white; text-decoration: none; }
+.profname a:hover { color: white; text-decoration: underline; }
+.profdescr { color: #CCCCFF; font-size: 70%; margin: 5px; }
+.profdescr a.about { color: #CCCCFF; text-decoration: none;; }
+.profdescr a.about:hover { color: white; text-decoration: underline; }
+.photodescr, .photodescl { color: #CCCCFF; font-size: 70%; }
+.photodescl { text-align: left; }
+a.profref, a.profref:visited, a.profref:hover {	color: #FFFACD; font-weight: 400; font-size: 80%;	text-decoration: underline; }
+		/* Contacts */
+dl.secpar    { margin-top: 0px; 	margin-bottom: 5px; }
+dl.secpar dt { color: white; font-weight: bold; margin-left: 0px; margin-top: 10px; margin-bottom: 0%; }
+dl.secpar dd { color: #CCCCFF; font-weight: 400; margin-left: 0px;	margin-top: 5px;	margin-bottom: 0px;	
+               margin-left: 20px; text-indent: 0; padding-left: 10px;	font-size: 90%;
+				  }
+.parhead {	padding: 5px;	background-color: #CCCCFF;	color: #000033; font-weight: 400; font-size: 120%; }
+.parheadsm {	padding: 2px;	background-color: #DDDDFF;	color: #000033; font-weight: 600; font-size: 80%; }
+.partext {	color: #CCCCFF; font-weight: 400; font-size: 90%; text-indent: 20px;	margin-bottom: 5px; }
+.partextsm {	color: #CCCCFF; font-weight: 400; font-size: 80%; text-indent: 20px;	margin-bottom: 5px; }
+p.text0 { text-indent: 0; }
+
+dl.paplist    { margin-top: 0px; }
+dl.paplist dt { color: white; font-weight: bold; margin-left: 0px; margin-top: 15px; margin-bottom: 0%; }
+dl.paplist dd { color: #CCCCFF; font-weight: 400; margin-left: 0px;	margin-top: 10px;	margin-bottom: 0px;	
+               margin-left: 20px; text-indent: -1em; padding-left: 10px;	font-size: 90%;
+				  }
+
+		/* Main text in subsections */
+.pagehead {	color: #000033; font-weight: bold; font-size: 150%; text-transform: uppercase; text-align: center; margin-top: 20px; margin-bottom: 10px;}
+.subhead  {	color: #333399; font-weight: 400; font-size: 120%; text-align: center; margin-top: 0; }
+.subsechead { color: #333399; font-weight: 600;	font-size: 120%; text-align: center; margin-top: 15px; }
+.subsubhead { color: #000033;	font-weight: 400;	font-size: 100%; text-align: center; }
+.texthead, .textheadc {	font-weight: 600;	font-size: 120%; margin-top: 15px; }
+.textheadc { text-align: center;}
+.text, .texti, .textii, .textsm, .textsmi, .author { font-weight: 400; margin-left: 0px; margin-top: 
+         10px; margin-bottom: 0px; padding-left: 10px; list-style-position: inside; }
+.textsm, .textsmi { font-size: 80%; }
+p.verse, p.verse0 { margin-left: 100px; margin-top: 20px;	}
+p.verse0 { margin-top: 0; }
+.acc { color: green; font-weight: bold; margin: 0 0 0 100px; }
+.author { font-weight: bold; text-align: right; }
+table.textsm td, table.textsmi td { padding: 2px 10px; }
+dl.textsm dt, dl.secdescr dt { font-weight: 400; margin-top: 5px; }
+dl.textsm dd a:visited { color: blue; }
+.text, .texti, .textii, p.texti li { font-size: 90%; }
+.texti, .textsmi { text-indent: 20px; margin-top: 0.2em; }
+.textii { text-indent: 40px; }
+.textL0 { background-color: #EAEAFF; }
+.textL1 { background-color: #DDDDFF; }
+.textL2 { background-color: #CCCCFF; }
+.textL3 { background-color: #BBBBFF; }
+.textL4 { background-color: #AAAAFF; }
+ol.textol, ul.textol { font-weight: 400; font-size: 80%; margin-top: 5px; }
+ol.textol li, ul.textol li { margin-top: 2px; border: 2;	border-color: #000066; }
+	/* Буквица */
+.fletter {
+ font-size: 320%; /* Размер шрифта буквицы */
+ font-weight: bold;
+ float: left; /* Выравнивание по левому краю */
+ color: #000066; /* Цвет буквицы */
+ padding-right: 3px; /* Отступ между буквицей и текстом */
+ line-height: 1em; /* Положение символа */
+ position: relative; 
+ top: -0.2em;
+}	
+	/* Floating image with caption */
+div.imgcapr, div.imgcapl { width: 170px;	text-align: center; display: inline; }	
+div.imgcaprw, div.imgcaplw { width: 220px; text-align: center; display: inline; }	
+div.imgcapr, div.imgcaprw { float: right; }	
+div.imgcapl, div.imgcaplw { float: left; }	
+div.imgcapr p.textsm, div.imgcapl p.textsm { margin: 0 0 10px; text-align: left; }
+.imgcap, .imgcapw, .imgcapx { font-weight: 400; font-size: 70%; padding: 0; margin: 0 0 10px 10px; text-align: left; }
+table.img td { text-align: center; vertical-align: bottom; width: 150px; padding: 0px; margin: 0;}
+table.img td.imgcap { text-align: left; vertical-align: top; width: 150px; padding: 0 5px 15px 10px;}
+table.img td.imgw { width: 350px;}
+table.img td.imgx { width: 100px;}
+table.img td.imgcapw { text-align: left; vertical-align: top; width: 350px; padding: 0 5px 15px 10px;}
+table.img td.imgcapx { text-align: left; vertical-align: top; width: 100px; padding: 0 5px 15px 10px;}
+
+  /*  Поиск */
+div.search { position: relative; top: 30; left: 0; color: white; 
+    height: 18; padding: 0px 2px; }
+div.search_old { position: absolute; top: 88; left: 660; background-color: black; color: white; 
+    height: 18; padding: 0px 2px; }
+
+.searchtitle { color: white; font-weight: 600; font-size: 12px; padding: 0px 5px 2px 2px; color: #FDE6D6;}
+.searchbtn { height: 21px; width: 55px; font-size: 11px; padding: 0 5px 0 5px; margin: 0 0 0 5px; color: #FDE6D6;
+	     background-color: #562929; 
+  	     border-color: #999; border-width:1px; }
+.searchbtnx { height: 21px; width: 60px; font-size: 12px; padding: 0 5px 0 5px; margin: 0 0 0 5px; color: #006;
+  	      background-color: #99c; }
+.searchtext { width: 120px; height: 18px;  color: navy;  background-color: #FDE6D6; border: 1px solid #562929; 
+		font-size: 11px; }
+.searchtextx { width: 400; height: 21px; font-size: 12px; color: navy;  background-color: #eef; 
+	border: 1px solid; border-left-color: #000; border-top-color: #000;
+	border-right-color: #fff; border-bottom-color: #fff;
+	}
+	/* Врезки, эпиграф */
+p.epig {	margin: 20px 20px 20px 200px;	font-style: italic; font-size: 80%; }
+div.rvrezka, div.lvrezka { float: right; background-color: #ddf; margin: 10px; padding: 10px; width: 25%; }
+div.lvrezka { float: left; }
+div.rvrezka p, div.lvrezka p { font-size: 60%; }
+  /* Словарь */
+.dicletter { font-size: 320%; font-weight: bold; color: #000066; vertical-align: top; margin-top:-10px; }	
+dl.dic dt {	font-weight: bold; font-size: 100%;	margin-top: 5px; text-transform: uppercase; }
+dl.dic dd { font-size: 90%; }
+table.bofort td { font-size: 80%; text-align: center; padding: 2px 10px; }
+table.bofort td.descr { text-align: left; }
+table.bofort th { font-size: 80%;  padding: 2px 10px; background-color: #ccc; vertical-align: middle; }
+td.year { background-color: #6666CC; text-align: center; font-weight: 600; color:white; font-size: 120%; padding: 0; }
+.notesec { padding-top:10pt; font-weight: bold; }
+
+p.evcap { font-size: 100%; color: #FFF; font-weight: bold; }	
+p.evtext { font-size: 80%; color: #CCF; }
+img.evimg { margin: 5px 10px 5px 0; }
+div.event { width: 350; float: left; padding-bottom: 20px; padding-right: 20px;}
+
+.sendbtn { font-size: 90%; padding: 0 5px 0 5px; margin: 0 0 0 5px; color: #000033;
+  	   background-color: #c0c0ff; border: 1px solid #FFFFFF;  }
+
+.arrows { list-style: none; margin:0; padding: 0 0 5px 0; }
+.arrows li { display: inline; float:left; color: #c0c0ff; }
+.arrows a  { display: block; text-decoration: none; color: #c0c0ff; }
+.arrows a:hover { background: #669; }
+
+TABLE.gorMenu {
+	BORDER-RIGHT: 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 18px; PADDING-BOTTOM: 2px; BORDER-LEFT: 2px solid; WIDTH: 100%; PADDING-TOP: 2px; BORDER-BOTTOM: 2px solid; FONT-FAMILY: "Comic Sans MS"; TEXT-ALIGN: center
+}
+TD.gorMenu {
+	padding-LEFT: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;
+}

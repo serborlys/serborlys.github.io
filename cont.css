@@ -1,0 +1,183 @@
+/* begin Page */
+/* Created by Artisteer v3.0.0.37990 */
+
+p
+{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+	text-indent: 20px;
+	margin-bottom: 1em;
+}
+
+table
+{
+    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+    font-size: 13px;
+}
+
+TD {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+//	text-align: right;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px; 
+   }
+
+.mytext
+{
+    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+	padding-left: 20px;
+}
+
+.footertext
+{
+  font-family: Tahoma, Arial, Helvetica;
+  font-size: 11px;
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+.pagefootertext
+{
+  font-family: Arial;
+  font-size: 10px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #5096BE;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, a, ul, ol, li
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+h1
+{
+   margin: 21px 0; 
+}
+
+h2
+{
+  color: #214559;
+  margin: 19px 0;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+h2 a, h2 a:link, h2 a:hover, h2 a:visited
+{
+   font-size: 18px; 
+}
+
+h3
+{
+   margin: 19px 0;
+   font-size: 19px; 
+}
+
+h3 a, h3 a:link, h3 a:hover, h3 a:visited
+{
+   font-size: 19px; 
+}
+
+h4
+{
+   margin: 20px 0;
+   font-size: 16px; 
+}
+
+h4 a, h4 a:link, h4 a:hover, h4 a:visited
+{
+   font-size: 16px; 
+}
+
+h5
+{
+	margin: 26px 0;
+	font-size: 16px;
+	text-align: center;   
+}
+
+h5 a, h5 a:link, h5 a:hover, h5 a:visited
+{
+   font-size: 13px; 
+}
+
+h6
+{
+   margin: 35px 0;
+   font-size: 11px; 
+}
+
+h6 a, h6 a:link, h6 a:hover, h6 a:visited
+{
+   font-size: 11px; 
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+ol
+{
+  list-style-position: inside;
+}
+
+body
+{
+  padding: 0; 
+  margin:0;
+  color: #0F1419;
+  height:100%;
+  background-color: #B2C2D1;
+  min-width: 900px;
+}
+
+form
+{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+table.position
+{
+  position: relative;
+  width: 100%;
+  table-layout: fixed;
+}
+
+input, select, textarea
+{
+  vertical-align: middle;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 13px;
+}
+
